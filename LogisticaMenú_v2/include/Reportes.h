@@ -7,14 +7,6 @@
 #include <ctime>
 #include "bitacora.h"
 #include "usuarios.h"
-#include "clientes.h"
-#include "proveedor.h"
-#include "producto.h"
-#include "Almacen.h"
-#include "transportistas.h"
-#include "pedidos.h"
-#include "envios.h"
-#include <map>
 
 // Declaraciones externas para mantener compatibilidad
 extern bitacora auditoria;
@@ -22,53 +14,53 @@ extern usuarios usuarioRegistrado;
 
 class Reportes {
 public:
+    // Estructura que representa un reporte
     struct DatosReporte {
-        std::string id;
-        std::string tipo;
-        std::time_t fechaGeneracion;
-        std::string contenido;
+        std::string id;                // ID unico del reporte
+        std::string tipo;              // Tipo de reporte (ventas, inventario, etc.)
+        std::time_t fechaGeneracion;   // Fecha de creacion del reporte
+        std::string contenido;         // Contenido textual del reporte
     };
 
+    // Lista estatica que almacena todos los reportes generados
     static std::vector<DatosReporte> listaReportes;
 
+    // Constructor: carga los reportes desde archivo binario al iniciar
     Reportes();
 
-    // Métodos CRUD
-    void crearReporte(const std::string& tipo, const std::string& contenido);
-    void consultarReportes();
-    void modificarReporte(const std::string& id, const std::string& nuevoContenido);
-    void eliminarReporte(const std::string& id);
-
-    // Métodos específicos de generación de reportes
+    // Metodo publico para generar reportes, version sin parametros (usa globales)
     void generarReportes();
+
+    // Metodo publico para generar reportes, version con parametros
     void generarReportes(bitacora& auditoria, const usuarios& usuario);
 
-    void informeVentas(const std::vector<Pedidos>& pedidos,
-                      const std::vector<Clientes>& clientes,
-                      const std::vector<Producto>& productos);
+    // Genera un informe de ventas simulado
+    void informeVentas(bitacora& auditoria, const usuarios& usuario);
 
-    void analisisTiemposEntrega(const std::vector<Envios>& envios,
-                               const std::vector<Pedidos>& pedidos,
-                               const std::vector<Transportistas>& transportistas);
+    // Genera un analisis de tiempos de entrega
+    void analisisTiemposEntrega(bitacora& auditoria, const usuarios& usuario);
 
-    void reporteInventarios(const std::vector<Producto>& productos,
-                           const std::vector<Almacen>& almacenes);
+    // Genera un reporte de inventarios
+    void reporteInventarios(bitacora& auditoria, const usuarios& usuario);
 
-    void evaluacionProveedores(const std::vector<Proveedor>& proveedores,
-                              const std::vector<Producto>& productos);
+    // Genera una evaluacion de proveedores
+    void evaluacionProveedores(bitacora& auditoria, const usuarios& usuario);
 
-    // Métodos de persistencia
+    // Guarda los reportes en un archivo binario
     static void guardarEnArchivoBin(const std::vector<DatosReporte>& lista);
+
+    // Carga los reportes desde un archivo binario
     static void cargarDesdeArchivoBin(std::vector<DatosReporte>& lista);
 
 private:
+    // Genera un ID unico dentro de un rango fijo (3800-3850)
     static std::string generarIdUnico(const std::vector<DatosReporte>& lista);
-    static bool idDisponible(const std::vector<DatosReporte>& lista, const std::string& id);
-    void mostrarProcesando(const std::string& mensaje);
 
-    // Métodos auxiliares para formateo
-    std::string formatearFecha(time_t fecha);
-    std::string generarTabla(const std::vector<std::vector<std::string>>& datos);
+    // Verifica si un ID esta disponible en la lista
+    static bool idDisponible(const std::vector<DatosReporte>& lista, const std::string& id);
+
+    // Muestra mensaje de "procesando..." con retardo visual
+    void mostrarProcesando(const std::string& mensaje);
 };
 
 #endif // REPORTES_H
