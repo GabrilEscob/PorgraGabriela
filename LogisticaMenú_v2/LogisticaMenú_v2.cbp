@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LogisticaMenú_v2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/LogisticaMenú_v2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="./" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/LogisticaMenú_v2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="./" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="CODIGOS_BITACORA.md" />
+		<Unit filename="include/Inventario.h" />
+		<Unit filename="include/Reportes.h" />
+		<Unit filename="include/administracion.h" />
+		<Unit filename="include/almacen.h" />
+		<Unit filename="include/bitacora.h" />
+		<Unit filename="include/clientes.h" />
+		<Unit filename="include/envios.h" />
+		<Unit filename="include/facturacion.h" />
+		<Unit filename="include/menuadministracion.h" />
+		<Unit filename="include/menualmacenes.h" />
+		<Unit filename="include/menuarchivo.h" />
+		<Unit filename="include/menucatalogos.h" />
+		<Unit filename="include/menuinformes.h" />
+		<Unit filename="include/menuprincipal.h" />
+		<Unit filename="include/menuprocesos.h" />
+		<Unit filename="include/menuproductos.h" />
+		<Unit filename="include/menuproveedores.h" />
+		<Unit filename="include/menutransportistas.h" />
+		<Unit filename="include/pedidos.h" />
+		<Unit filename="include/producto.h" />
+		<Unit filename="include/proveedor.h" />
+		<Unit filename="include/transportistas.h" />
+		<Unit filename="include/usuarios.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Inventario.cpp" />
+		<Unit filename="src/MenuClientes.cpp" />
+		<Unit filename="src/Reportes.cpp" />
+		<Unit filename="src/administracion.cpp" />
+		<Unit filename="src/almacen.cpp" />
+		<Unit filename="src/bitacora.cpp" />
+		<Unit filename="src/clientes.cpp" />
+		<Unit filename="src/envios.cpp" />
+		<Unit filename="src/facturacion.cpp" />
+		<Unit filename="src/globals.cpp" />
+		<Unit filename="src/menuadministracion.cpp" />
+		<Unit filename="src/menualmacenes.cpp" />
+		<Unit filename="src/menuarchivo.cpp" />
+		<Unit filename="src/menucatalogos.cpp" />
+		<Unit filename="src/menuinformes.cpp" />
+		<Unit filename="src/menuprincipal.cpp" />
+		<Unit filename="src/menuprocesos.cpp" />
+		<Unit filename="src/menuproductos.cpp" />
+		<Unit filename="src/menuproveedores.cpp" />
+		<Unit filename="src/menutransportistas.cpp" />
+		<Unit filename="src/pedidos.cpp" />
+		<Unit filename="src/producto.cpp" />
+		<Unit filename="src/proveedor.cpp" />
+		<Unit filename="src/transportistas.cpp" />
+		<Unit filename="src/usuarios.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

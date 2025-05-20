@@ -1,0 +1,622 @@
+<<<<<<< HEAD
+-------------------------- BITÁCORA DEL SISTEMA --------------------------
+ID_ACCION   USUARIO        MODULO              DESCRIPCION                        FECHA_HORA          
+---------------------------------------------------------------------------
+3000        Jennifer       000                 LOGIN-FAIL                         12/05/2025 02:11:24 
+3001        Jennifer       000                 REG-USER                           12/05/2025 02:11:40 
+3002        Jennifer       000                 LOGIN                              12/05/2025 02:11:48 
+3000        Jennifer       000                 LOGIN                              14/05/2025 11:25:52 
+3150        Jennifer       CLIENTES            Cliente agregado - ID: 3107        14/05/2025 11:26:32 
+3000        Jennifer       000                 LOGIN                              14/05/2025 11:26:59 
+3000        Jennifer       000                 LOGIN                              14/05/2025 11:32:31 
+3000        Jennifer       000                 LOGIN                              14/05/2025 11:33:21 
+3000        Jennifer       000                 LOGIN                              14/05/2025 15:45:05 
+3000        Jennifer       000                 LOGIN                              14/05/2025 15:50:11 
+3000        Jennifer       000                 LOGIN-FAIL                         14/05/2025 15:54:54 
+3001        Jennifer       000                 LOGIN                              14/05/2025 15:55:02 
+3000        Jennifer       000                 LOGIN                              14/05/2025 15:57:55 
+3000        Jennifer       000                 LOGIN                              14/05/2025 15:59:41 
+3150        Jennifer       CLIENTES            Cliente modificado - ID: 3109      14/05/2025 16:01:15 
+3000        Jennifer       000                 LOGIN                              14/05/2025 16:54:55 
+3100        Jennifer       PEDIDOS             Salida de gestión de pedidos       14/05/2025 16:55:56 
+3000        Jennifer       ALMACEN             Almacén creado - ID: 3260          14/05/2025 16:56:41 
+3250        Jennifer       PRODUCTOS           Agregado: 3209                     14/05/2025 16:57:08 
+3101        Jennifer       PEDIDOS             Pedido creado - ID: 3400           14/05/2025 16:58:00 
+3102        Jennifer       PEDIDOS             Consulta de pedidos                14/05/2025 16:58:05 
+3103        Jennifer       PEDIDOS             Vista de historial de pedidos      14/05/2025 16:58:36 
+3000        Jennifer       000                 LOGIN                              15/05/2025 06:15:38 
+3100        Jennifer       PEDIDOS             Consulta de pedidos                15/05/2025 06:16:28 
+3101        Jennifer       PEDIDOS             Vista de historial de pedidos      15/05/2025 06:16:48 
+3102        Jennifer       PEDIDOS             Salida de gestión de pedidos       15/05/2025 06:17:42 
+3000        Jennifer       000                 LOGIN                              15/05/2025 06:18:41 
+3000        Jennifer       000                 LOGIN                              15/05/2025 14:29:59 
+3100        Jennifer       PEDIDOS             Vista de historial de pedidos      15/05/2025 14:30:30 
+3101        Jennifer       PEDIDOS             Consulta de pedidos                15/05/2025 14:30:34 
+3000        Jennifer       000                 LOGIN                              15/05/2025 14:45:17 
+3100        Jennifer       PEDIDOS             Vista de historial de pedidos      15/05/2025 14:45:30 
+3101        Jennifer       PEDIDOS             Salida de gestión de pedidos       15/05/2025 14:45:37 
+3000        Jennifer       000                 LOGIN                              15/05/2025 14:46:45 
+3100        Jennifer       PEDIDOS             Salida de gestión de pedidos       15/05/2025 14:46:55 
+3101        Jennifer       PEDIDOS             Consulta de pedidos                15/05/2025 14:47:26 
+3102        Jennifer       PEDIDOS             Vista de historial de pedidos - ID: 340015/05/2025 14:47:31 
+3103        Jennifer       PEDIDOS             Vista de historial de pedidos - ID: 340015/05/2025 14:47:43 
+<<<<<<< HEAD
+3000        Jennifer       000                 LOGIN                              16/05/2025 17:39:51 
+3000        Jennifer       000                 LOGIN                              16/05/2025 17:42:22 
+3000        Jennifer       200                 STOCK                              16/05/2025 17:42:29 
+3001        Jennifer       200                 STOCK                              16/05/2025 17:42:59 
+=======
+3000        Karina         000                 LOGIN-FAIL                         15/05/2025 17:38:00 
+3001        Karina         000                 LOGIN-FAIL                         15/05/2025 17:38:44 
+3002        karina alewi   000                 LOGIN-FAIL                         15/05/2025 17:39:04 
+3000        Karina         000                 REG-USER                           15/05/2025 17:39:52 
+3001        Karina         000                 LOGIN                              15/05/2025 17:40:10 
+3100        Karina         PEDIDOS             Salida de gestión de pedidos       15/05/2025 17:42:57 
+3101        Karina         PEDIDOS             Salida de gestión de pedidos       15/05/2025 17:43:03 
+3102        Karina         PEDIDOS             Salida de gestión de pedidos       15/05/2025 17:43:20 
+3000        Karina         200                 STOCK                              15/05/2025 17:44:38 
+3000        Karina         000                 LOGIN                              16/05/2025 16:49:01 
+3000        Ale            000                 REG-USER                           16/05/2025 17:39:51 
+3000        Ale            000                 LOGIN                              16/05/2025 17:48:29 
+3000        Ale            200                 STOCK                              16/05/2025 17:48:51 
+3000        Ale            000                 LOGIN                              16/05/2025 17:58:14 
+3001        Ale            000                 LOGOUT                             16/05/2025 17:58:33 
+3002                       000                 LOGOUT                             16/05/2025 17:58:53 
+3000        Ale            000                 LOGIN                              16/05/2025 18:01:32 
+3000        Kari           000                 REG-USER                           16/05/2025 18:02:23 
+3001        Kari           000                 LOGIN                              16/05/2025 18:02:33 
+3000        Kari           000                 LOGIN-FAIL                         16/05/2025 18:15:22 
+3001        Kari           000                 LOGIN                              16/05/2025 18:15:33 
+3002        Kari           000                 LOGOUT                             16/05/2025 18:15:44 
+3000        kari           000                 REG-USER                           16/05/2025 18:20:41 
+3001        kari           000                 LOGIN                              16/05/2025 18:20:50 
+3002        kari           000                 LOGOUT                             16/05/2025 18:21:07 
+<<<<<<< HEAD
+>>>>>>> aa9a3cdd2da258c43d9bd53a505bd4c8e50d3c9f
+<<<<<<< HEAD
+3000        Angel          000                 REG-USER                           16/05/2025 21:48:58 
+3001        Angel          000                 LOGIN                              16/05/2025 21:49:05 
+3100        Angel          PEDIDOS             Consulta de pedidos                16/05/2025 21:52:53 
+3101        Angel          PEDIDOS             Pedido modificado - ID: 3400       16/05/2025 21:53:07 
+3102        Angel          PEDIDOS             Salida de gestión de pedidos       16/05/2025 21:53:10 
+3550        Angel          ENVIOS              Creado envío para pedido 3400 con transportista 331116/05/2025 21:53:43 
+3000        Angel          000                 LOGIN                              16/05/2025 21:54:20 
+3000        Angel          000                 LOGIN                              16/05/2025 21:56:32 
+3000        Angel          000                 LOGIN                              16/05/2025 21:59:21 
+3000        Angel          000                 LOGIN                              16/05/2025 22:00:14 
+3000        Angel          000                 LOGIN                              16/05/2025 22:22:53 
+3150        Angel          CLIENTES            Cliente agregado - ID: 3107        16/05/2025 22:23:17 
+3000        Angel          000                 LOGIN                              16/05/2025 22:29:19 
+3150        Angel          CLIENTES            Cliente agregado - ID: 3107        16/05/2025 22:29:47 
+3151        Angel          CLIENTES            Cliente agregado - ID: 3108        16/05/2025 22:29:56 
+=======
+3000        Jennifer       000                 LOGIN                              16/05/2025 22:02:20 
+3100        Jennifer       PEDIDOS             Salida de gestión de pedidos       16/05/2025 22:02:33 
+3000        Jennifer       000                 LOGIN                              16/05/2025 22:28:26 
+3250        Jennifer       PRODUCTOS           Agregado: 3209                     16/05/2025 22:28:54 
+3000        Jennifer       000                 LOGIN                              16/05/2025 22:29:27 
+3250        Jennifer       PRODUCTOS           Agregado: 3210                     16/05/2025 22:29:51 
+3100        Jennifer       PEDIDOS             Pedido creado - ID: 3400           16/05/2025 22:30:27 
+3000        Jennifer       000                 LOGIN                              16/05/2025 22:33:27 
+3000        Jennifer       000                 LOGIN                              16/05/2025 22:37:32 
+3000        Jennifer       000                 LOGIN                              16/05/2025 22:49:11 
+3000        Jennifer       000                 LOGIN                              16/05/2025 22:54:47 
+3100        Jennifer       PEDIDOS             Consulta de pedidos                16/05/2025 22:55:00 
+3000        Jennifer       000                 LOGIN                              16/05/2025 23:02:50 
+3000        Jennifer       000                 LOGIN                              16/05/2025 23:13:04 
+>>>>>>> 7f81aaee9ffed8c4e12e446808bcf5a8e43037e3
+3000        Jennifer       000                 LOGIN                              17/05/2025 01:20:49 
+3100        Jennifer       PEDIDOS             Consulta de pedidos                17/05/2025 01:20:56 
+3101        Jennifer       PEDIDOS             Salida de gestión de pedidos       17/05/2025 01:22:47 
+3150        Jennifer       CLIENTES            Cliente agregado - ID: 3107        17/05/2025 01:23:16 
+3001        Jennifer       000                 LOGOUT                             17/05/2025 01:23:28 
+3000        Jennifer       000                 LOGIN                              17/05/2025 01:23:37 
+3100        Jennifer       PEDIDOS             Pedido creado - ID: 3401           17/05/2025 01:24:14 
+3101        Jennifer       PEDIDOS             Salida de gestión de pedidos       17/05/2025 01:24:31 
+3001        Jennifer       000                 LOGOUT                             17/05/2025 01:24:40 
+3000        Jennifer       000                 LOGIN                              17/05/2025 01:34:16 
+3000        Jennifer       000                 LOGIN                              17/05/2025 01:48:37 
+3200        Jennifer       PROVEEDORES         Proveedor agregado - ID: 3158      17/05/2025 01:48:51 
+3201        Jennifer       PROVEEDORES         Proveedor agregado - ID: 3159      17/05/2025 01:49:06 
+3000        Jennifer       000                 LOGIN                              17/05/2025 01:49:23 
+<<<<<<< HEAD
+3000        Karina         000                 LOGIN                              17/05/2025 10:23:59 
+3000        arriaza        000                 REG-USER                           17/05/2025 10:43:24 
+3000        Karina         000                 LOGIN                              17/05/2025 11:44:29 
+3001        Karina         000                 LOGOUT                             17/05/2025 11:45:08 
+3000        Karina         000                 LOGIN                              17/05/2025 11:51:55 
+3000        Karina         000                 LOGIN                              17/05/2025 11:59:04 
+3001        Karina         000                 LOGOUT                             17/05/2025 11:59:14 
+3000        Karina         000                 LOGIN                              17/05/2025 12:03:51 
+3001        Karina         000                 LOGOUT                             17/05/2025 12:03:59 
+3000        Karina         000                 LOGIN                              17/05/2025 12:54:20 
+3001        Karina         000                 LOGOUT                             17/05/2025 12:54:57 
+3000        Karina         000                 LOGIN                              17/05/2025 16:29:49 
+=======
+3000        Jennifer       000                 LOGIN                              17/05/2025 12:00:55 
+3100        Jennifer       PEDIDOS             Consulta de pedidos                17/05/2025 12:01:17 
+3000        Jennifer       000                 LOGIN                              17/05/2025 12:21:46 
+3100        Jennifer       PEDIDOS             Pedido modificado - ID: 3400       17/05/2025 12:22:16 
+3101        Jennifer       PEDIDOS             Salida de gestión de pedidos       17/05/2025 12:22:31 
+3550        Jennifer       ENVIOS              Creado envío para pedido 3400 con transportista 331117/05/2025 12:23:01 
+3001        Jennifer       000                 LOGOUT                             17/05/2025 12:30:29 
+3000        Angel          000                 LOGIN                              17/05/2025 14:58:51 
+3100        Angel          PEDIDOS             Salida de gestión de pedidos       17/05/2025 14:59:35 
+3000        Angel          ALMACEN             Almacen creado - ID: 3260          17/05/2025 15:00:16 
+3101        Angel          PEDIDOS             Pedido creado - ID: 3402           17/05/2025 15:00:56 
+3102        Angel          PEDIDOS             Salida de gestión de pedidos       17/05/2025 15:01:00 
+3550        Angel          ENVIOS              Creado envío para pedido 3402 con transportista 331117/05/2025 15:01:11 
+3000        Angel          000                 LOGIN                              17/05/2025 15:04:35 
+3000        Angel          000                 LOGIN                              17/05/2025 15:17:21 
+3000        Angel          000                 LOGIN-FAIL                         17/05/2025 15:21:11 
+3001        Angel          000                 LOGIN                              17/05/2025 15:21:17 
+3000        Angel          000                 LOGIN                              17/05/2025 15:25:03 
+3000        Angel          000                 LOGIN                              17/05/2025 15:33:04 
+3100        Angel          PEDIDOS             Consulta de pedidos                17/05/2025 15:33:50 
+3101        Angel          PEDIDOS             Salida de gestión de pedidos       17/05/2025 15:34:12 
+<<<<<<< HEAD
+3000        Jennifer       000                 LOGIN                              17/05/2025 16:00:18 
+3001        Jennifer       000                 LOGOUT                             17/05/2025 16:01:59 
+3000        Jennifer       000                 LOGIN                              17/05/2025 16:10:20 
+3150        Jennifer       CLIENTES            Cliente agregado - ID: 3108        17/05/2025 16:10:50 
+3000        Jennifer       000                 LOGIN                              17/05/2025 16:12:37 
+3100        Jennifer       PEDIDOS             Pedido creado - ID: 3403           17/05/2025 16:16:08 
+3101        Jennifer       PEDIDOS             Consulta de pedidos                17/05/2025 16:16:13 
+3102        Jennifer       PEDIDOS             Salida de gestión de pedidos       17/05/2025 16:16:42 
+3550        Jennifer       ENVIOS              Creado envío para pedido 3403 con transportista 331117/05/2025 16:17:21 
+3103        Jennifer       PEDIDOS             Consulta de pedidos                17/05/2025 16:17:43 
+3104        Jennifer       PEDIDOS             Salida de gestión de pedidos       17/05/2025 16:18:01 
+=======
+3000        arriaza        000                 REG-USER                           17/05/2025 11:22:52 
+<<<<<<< HEAD
+>>>>>>> 862a41fe662cb937addea89707b9880e9c7dce70
+=======
+3000        Angel          000                 LOGIN                              17/05/2025 17:38:34 
+3000        Angel          000                 LOGIN                              17/05/2025 17:42:32 
+3000        Angel          000                 LOGIN                              17/05/2025 18:02:36 
+3000        Angel          000                 LOGIN-FAIL                         17/05/2025 18:03:41 
+3001        Angel          000                 LOGIN-FAIL                         17/05/2025 18:03:44 
+3000        Angel          000                 LOGIN                              17/05/2025 18:03:57 
+3000        Angel          000                 LOGIN                              17/05/2025 18:08:18 
+3100        Angel          PEDIDOS             Pedido creado - ID: 3403           17/05/2025 18:09:10 
+3101        Angel          PEDIDOS             Salida de gestión de pedidos       17/05/2025 18:09:13 
+3000        Angel          000                 LOGIN                              17/05/2025 18:12:06 
+3000        Angel          000                 LOGIN                              17/05/2025 18:25:36 
+3550        Angel          ENVIOS              Creado envio para pedido 3403 con transportista 331117/05/2025 18:26:05 
+3100        Angel          PEDIDOS             Pedido creado - ID: 3404           17/05/2025 18:26:50 
+3101        Angel          PEDIDOS             Salida de gestión de pedidos       17/05/2025 18:26:54 
+3551        Angel          ENVIOS              Creado envio para pedido 3404 con transportista 331117/05/2025 18:27:16 
+3102        Angel          PEDIDOS             Consulta de pedidos                17/05/2025 18:27:49 
+3103        Angel          PEDIDOS             Pedido modificado - ID: 3404       17/05/2025 18:28:36 
+3104        Angel          PEDIDOS             Salida de gestión de pedidos       17/05/2025 18:28:48 
+<<<<<<< HEAD
+>>>>>>> d5100bdb0f5841b2a9a5ce8c27155987ff727e6e
+<<<<<<< HEAD
+>>>>>>> 296cd50756a892cdc97a9b778a2a348ccc059bd2
+=======
+=======
+3000        Jennifer       000                 LOGIN                              17/05/2025 18:02:42 
+<<<<<<< HEAD
+>>>>>>> 85227e0923dcbcb72ba4c91960f0768d804107cc
+=======
+3000        Angel          000                 LOGIN                              17/05/2025 20:32:39 
+3100        Angel          PEDIDOS             Pedido creado - ID: 3405           17/05/2025 20:34:08 
+3101        Angel          PEDIDOS             Consulta de pedidos                17/05/2025 20:34:10 
+3102        Angel          PEDIDOS             Salida de gestión de pedidos       17/05/2025 20:34:15 
+3550        Angel          ENVIOS              Creado envio para pedido 3405 con transportista 331117/05/2025 20:34:32 
+3103        Angel          PEDIDOS             Salida de gestión de pedidos       17/05/2025 20:35:49 
+<<<<<<< HEAD
+>>>>>>> 20f49edd6f110e44afb2740cf074d028f889317d
+3000        AJAX           000                 LOGIN-FAIL                         17/05/2025 20:43:55 
+3001        AJAX           000                 LOGIN-FAIL                         17/05/2025 20:44:05 
+3002        Jennifer       000                 LOGIN                              17/05/2025 20:44:12 
+3003        Jennifer       000                 LOGOUT                             17/05/2025 20:44:24 
+3000        Jennifer       000                 LOGIN                              17/05/2025 20:44:36 
+3100        Jennifer       PEDIDOS             Pedido creado - ID: 3404           17/05/2025 20:45:07 
+3101        Jennifer       PEDIDOS             Salida de gestión de pedidos       17/05/2025 20:45:13 
+3550        Jennifer       ENVIOS              Creado envio para pedido 3404 con transportista 331117/05/2025 20:47:56 
+3102        Jennifer       PEDIDOS             Consulta de pedidos                17/05/2025 20:48:32 
+3103        Jennifer       PEDIDOS             Salida de gestión de pedidos       17/05/2025 20:50:14 
+3000        Jennifer       500                 REPVENT                            17/05/2025 20:57:25 
+3001        Jennifer       500                 ANALTIME                           17/05/2025 20:57:32 
+3002        Jennifer       500                 REPINV                             17/05/2025 20:57:38 
+3003        Jennifer       500                 EVAPROV                            17/05/2025 20:57:45 
+=======
+3000        Angel          000                 LOGIN                              17/05/2025 21:15:27 
+3100        Angel          PEDIDOS             Consulta de pedidos                17/05/2025 21:15:33 
+3101        Angel          PEDIDOS             Consulta de pedidos                17/05/2025 21:15:41 
+3102        Angel          PEDIDOS             Consulta de pedidos                17/05/2025 21:15:51 
+3103        Angel          PEDIDOS             Salida de gestión de pedidos       17/05/2025 21:16:05 
+3000        Angel          000                 LOGIN                              17/05/2025 21:36:53 
+3100        Angel          PEDIDOS             Consulta de pedidos                17/05/2025 21:37:00 
+3101        Angel          PEDIDOS             Salida de gestión de pedidos       17/05/2025 21:37:04 
+3000        Angel          000                 LOGIN                              17/05/2025 21:38:00 
+3100        Angel          PEDIDOS             Pedido creado - ID: 3406           17/05/2025 21:38:18 
+3101        Angel          PEDIDOS             Salida de gestión de pedidos       17/05/2025 21:38:24 
+3550        Angel          ENVIOS              Creado envio para pedido 3406 con transportista 331117/05/2025 21:38:40 
+3102        Angel          PEDIDOS             Consulta de pedidos                17/05/2025 21:39:07 
+3103        Angel          PEDIDOS             Salida de gestión de pedidos       17/05/2025 21:39:28 
+3000        Angel          000                 LOGIN                              17/05/2025 21:51:06 
+3100        Angel          PEDIDOS             Pedido creado - ID: 3407           17/05/2025 21:51:39 
+3101        Angel          PEDIDOS             Salida de gestión de pedidos       17/05/2025 21:51:42 
+3550        Angel          ENVIOS              Creado envio para pedido 3407 con transportista 331117/05/2025 21:51:54 
+3000        Angel          000                 LOGIN                              17/05/2025 21:52:57 
+3100        Angel          PEDIDOS             Consulta de pedidos                17/05/2025 21:53:40 
+3101        Angel          PEDIDOS             Pedido cancelado - ID: 3407        17/05/2025 21:54:01 
+3102        Angel          PEDIDOS             Consulta de pedidos                17/05/2025 21:54:07 
+3103        Angel          PEDIDOS             Salida de gestión de pedidos       17/05/2025 21:54:10 
+3000        Angel          000                 LOGIN                              17/05/2025 21:55:10 
+3000        Angel          000                 LOGIN                              17/05/2025 21:57:58 
+<<<<<<< HEAD
+>>>>>>> 045646afd118a874f0d9691f1b5605904354cb58
+=======
+3000        Sistema        000                 PROGRAMA CERRADO                   17/05/2025 20:19:46 
+3000        Karina         000                 REG-USER                           17/05/2025 21:36:16 
+3001        Karina         000                 LOGIN                              17/05/2025 21:36:25 
+3000        Sistema        000                 PROGRAMA CERRADO                   17/05/2025 22:00:29 
+<<<<<<< HEAD
+>>>>>>> a1836cfc7a05be1a66acd5eca09aaac9c98ba1b2
+=======
+-------------------------- BITÁCORA DEL SISTEMA --------------------------
+ID_ACCION   USUARIO        MODULO              DESCRIPCION                        FECHA_HORA          
+---------------------------------------------------------------------------
+3000        Jennifer       000                 LOGIN-FAIL                         12/05/2025 02:11:24 
+3001        Jennifer       000                 REG-USER                           12/05/2025 02:11:40 
+3002        Jennifer       000                 LOGIN                              12/05/2025 02:11:48 
+3000        Jennifer       000                 LOGIN                              14/05/2025 11:25:52 
+3150        Jennifer       CLIENTES            Cliente agregado - ID: 3107        14/05/2025 11:26:32 
+3000        Jennifer       000                 LOGIN                              14/05/2025 11:26:59 
+3000        Jennifer       000                 LOGIN                              14/05/2025 11:32:31 
+3000        Jennifer       000                 LOGIN                              14/05/2025 11:33:21 
+3000        Jennifer       000                 LOGIN                              14/05/2025 15:45:05 
+3000        Jennifer       000                 LOGIN                              14/05/2025 15:50:11 
+3000        Jennifer       000                 LOGIN-FAIL                         14/05/2025 15:54:54 
+3001        Jennifer       000                 LOGIN                              14/05/2025 15:55:02 
+3000        Jennifer       000                 LOGIN                              14/05/2025 15:57:55 
+3000        Jennifer       000                 LOGIN                              14/05/2025 15:59:41 
+3150        Jennifer       CLIENTES            Cliente modificado - ID: 3109      14/05/2025 16:01:15 
+3000        Jennifer       000                 LOGIN                              14/05/2025 16:54:55 
+3100        Jennifer       PEDIDOS             Salida de gestión de pedidos       14/05/2025 16:55:56 
+3000        Jennifer       ALMACEN             Almacén creado - ID: 3260          14/05/2025 16:56:41 
+3250        Jennifer       PRODUCTOS           Agregado: 3209                     14/05/2025 16:57:08 
+3101        Jennifer       PEDIDOS             Pedido creado - ID: 3400           14/05/2025 16:58:00 
+3102        Jennifer       PEDIDOS             Consulta de pedidos                14/05/2025 16:58:05 
+3103        Jennifer       PEDIDOS             Vista de historial de pedidos      14/05/2025 16:58:36 
+3000        Jennifer       000                 LOGIN                              15/05/2025 06:15:38 
+3100        Jennifer       PEDIDOS             Consulta de pedidos                15/05/2025 06:16:28 
+3101        Jennifer       PEDIDOS             Vista de historial de pedidos      15/05/2025 06:16:48 
+3102        Jennifer       PEDIDOS             Salida de gestión de pedidos       15/05/2025 06:17:42 
+3000        Jennifer       000                 LOGIN                              15/05/2025 06:18:41 
+3000        Jennifer       000                 LOGIN                              15/05/2025 14:29:59 
+3100        Jennifer       PEDIDOS             Vista de historial de pedidos      15/05/2025 14:30:30 
+3101        Jennifer       PEDIDOS             Consulta de pedidos                15/05/2025 14:30:34 
+3000        Jennifer       000                 LOGIN                              15/05/2025 14:45:17 
+3100        Jennifer       PEDIDOS             Vista de historial de pedidos      15/05/2025 14:45:30 
+3101        Jennifer       PEDIDOS             Salida de gestión de pedidos       15/05/2025 14:45:37 
+3000        Jennifer       000                 LOGIN                              15/05/2025 14:46:45 
+3100        Jennifer       PEDIDOS             Salida de gestión de pedidos       15/05/2025 14:46:55 
+3101        Jennifer       PEDIDOS             Consulta de pedidos                15/05/2025 14:47:26 
+3102        Jennifer       PEDIDOS             Vista de historial de pedidos - ID: 340015/05/2025 14:47:31 
+3103        Jennifer       PEDIDOS             Vista de historial de pedidos - ID: 340015/05/2025 14:47:43 
+<<<<<<< HEAD
+3000        Jennifer       000                 LOGIN                              16/05/2025 17:39:51 
+3000        Jennifer       000                 LOGIN                              16/05/2025 17:42:22 
+3000        Jennifer       200                 STOCK                              16/05/2025 17:42:29 
+3001        Jennifer       200                 STOCK                              16/05/2025 17:42:59 
+=======
+3000        Karina         000                 LOGIN-FAIL                         15/05/2025 17:38:00 
+3001        Karina         000                 LOGIN-FAIL                         15/05/2025 17:38:44 
+3002        karina alewi   000                 LOGIN-FAIL                         15/05/2025 17:39:04 
+3000        Karina         000                 REG-USER                           15/05/2025 17:39:52 
+3001        Karina         000                 LOGIN                              15/05/2025 17:40:10 
+3100        Karina         PEDIDOS             Salida de gestión de pedidos       15/05/2025 17:42:57 
+3101        Karina         PEDIDOS             Salida de gestión de pedidos       15/05/2025 17:43:03 
+3102        Karina         PEDIDOS             Salida de gestión de pedidos       15/05/2025 17:43:20 
+3000        Karina         200                 STOCK                              15/05/2025 17:44:38 
+3000        Karina         000                 LOGIN                              16/05/2025 16:49:01 
+3000        Ale            000                 REG-USER                           16/05/2025 17:39:51 
+3000        Ale            000                 LOGIN                              16/05/2025 17:48:29 
+3000        Ale            200                 STOCK                              16/05/2025 17:48:51 
+3000        Ale            000                 LOGIN                              16/05/2025 17:58:14 
+3001        Ale            000                 LOGOUT                             16/05/2025 17:58:33 
+3002                       000                 LOGOUT                             16/05/2025 17:58:53 
+3000        Ale            000                 LOGIN                              16/05/2025 18:01:32 
+3000        Kari           000                 REG-USER                           16/05/2025 18:02:23 
+3001        Kari           000                 LOGIN                              16/05/2025 18:02:33 
+3000        Kari           000                 LOGIN-FAIL                         16/05/2025 18:15:22 
+3001        Kari           000                 LOGIN                              16/05/2025 18:15:33 
+3002        Kari           000                 LOGOUT                             16/05/2025 18:15:44 
+3000        kari           000                 REG-USER                           16/05/2025 18:20:41 
+3001        kari           000                 LOGIN                              16/05/2025 18:20:50 
+3002        kari           000                 LOGOUT                             16/05/2025 18:21:07 
+<<<<<<< HEAD
+>>>>>>> aa9a3cdd2da258c43d9bd53a505bd4c8e50d3c9f
+<<<<<<< HEAD
+3000        Angel          000                 REG-USER                           16/05/2025 21:48:58 
+3001        Angel          000                 LOGIN                              16/05/2025 21:49:05 
+3100        Angel          PEDIDOS             Consulta de pedidos                16/05/2025 21:52:53 
+3101        Angel          PEDIDOS             Pedido modificado - ID: 3400       16/05/2025 21:53:07 
+3102        Angel          PEDIDOS             Salida de gestión de pedidos       16/05/2025 21:53:10 
+3550        Angel          ENVIOS              Creado envío para pedido 3400 con transportista 331116/05/2025 21:53:43 
+3000        Angel          000                 LOGIN                              16/05/2025 21:54:20 
+3000        Angel          000                 LOGIN                              16/05/2025 21:56:32 
+3000        Angel          000                 LOGIN                              16/05/2025 21:59:21 
+3000        Angel          000                 LOGIN                              16/05/2025 22:00:14 
+3000        Angel          000                 LOGIN                              16/05/2025 22:22:53 
+3150        Angel          CLIENTES            Cliente agregado - ID: 3107        16/05/2025 22:23:17 
+3000        Angel          000                 LOGIN                              16/05/2025 22:29:19 
+3150        Angel          CLIENTES            Cliente agregado - ID: 3107        16/05/2025 22:29:47 
+3151        Angel          CLIENTES            Cliente agregado - ID: 3108        16/05/2025 22:29:56 
+=======
+3000        Jennifer       000                 LOGIN                              16/05/2025 22:02:20 
+3100        Jennifer       PEDIDOS             Salida de gestión de pedidos       16/05/2025 22:02:33 
+3000        Jennifer       000                 LOGIN                              16/05/2025 22:28:26 
+3250        Jennifer       PRODUCTOS           Agregado: 3209                     16/05/2025 22:28:54 
+3000        Jennifer       000                 LOGIN                              16/05/2025 22:29:27 
+3250        Jennifer       PRODUCTOS           Agregado: 3210                     16/05/2025 22:29:51 
+3100        Jennifer       PEDIDOS             Pedido creado - ID: 3400           16/05/2025 22:30:27 
+3000        Jennifer       000                 LOGIN                              16/05/2025 22:33:27 
+3000        Jennifer       000                 LOGIN                              16/05/2025 22:37:32 
+3000        Jennifer       000                 LOGIN                              16/05/2025 22:49:11 
+3000        Jennifer       000                 LOGIN                              16/05/2025 22:54:47 
+3100        Jennifer       PEDIDOS             Consulta de pedidos                16/05/2025 22:55:00 
+3000        Jennifer       000                 LOGIN                              16/05/2025 23:02:50 
+3000        Jennifer       000                 LOGIN                              16/05/2025 23:13:04 
+>>>>>>> 7f81aaee9ffed8c4e12e446808bcf5a8e43037e3
+3000        Jennifer       000                 LOGIN                              17/05/2025 01:20:49 
+3100        Jennifer       PEDIDOS             Consulta de pedidos                17/05/2025 01:20:56 
+3101        Jennifer       PEDIDOS             Salida de gestión de pedidos       17/05/2025 01:22:47 
+3150        Jennifer       CLIENTES            Cliente agregado - ID: 3107        17/05/2025 01:23:16 
+3001        Jennifer       000                 LOGOUT                             17/05/2025 01:23:28 
+3000        Jennifer       000                 LOGIN                              17/05/2025 01:23:37 
+3100        Jennifer       PEDIDOS             Pedido creado - ID: 3401           17/05/2025 01:24:14 
+3101        Jennifer       PEDIDOS             Salida de gestión de pedidos       17/05/2025 01:24:31 
+3001        Jennifer       000                 LOGOUT                             17/05/2025 01:24:40 
+3000        Jennifer       000                 LOGIN                              17/05/2025 01:34:16 
+3000        Jennifer       000                 LOGIN                              17/05/2025 01:48:37 
+3200        Jennifer       PROVEEDORES         Proveedor agregado - ID: 3158      17/05/2025 01:48:51 
+3201        Jennifer       PROVEEDORES         Proveedor agregado - ID: 3159      17/05/2025 01:49:06 
+3000        Jennifer       000                 LOGIN                              17/05/2025 01:49:23 
+3000        Jennifer       000                 LOGIN                              17/05/2025 12:00:55 
+3100        Jennifer       PEDIDOS             Consulta de pedidos                17/05/2025 12:01:17 
+3000        Jennifer       000                 LOGIN                              17/05/2025 12:21:46 
+3100        Jennifer       PEDIDOS             Pedido modificado - ID: 3400       17/05/2025 12:22:16 
+3101        Jennifer       PEDIDOS             Salida de gestión de pedidos       17/05/2025 12:22:31 
+3550        Jennifer       ENVIOS              Creado envío para pedido 3400 con transportista 331117/05/2025 12:23:01 
+3001        Jennifer       000                 LOGOUT                             17/05/2025 12:30:29 
+3000        Angel          000                 LOGIN                              17/05/2025 14:58:51 
+3100        Angel          PEDIDOS             Salida de gestión de pedidos       17/05/2025 14:59:35 
+3000        Angel          ALMACEN             Almacen creado - ID: 3260          17/05/2025 15:00:16 
+3101        Angel          PEDIDOS             Pedido creado - ID: 3402           17/05/2025 15:00:56 
+3102        Angel          PEDIDOS             Salida de gestión de pedidos       17/05/2025 15:01:00 
+3550        Angel          ENVIOS              Creado envío para pedido 3402 con transportista 331117/05/2025 15:01:11 
+3000        Angel          000                 LOGIN                              17/05/2025 15:04:35 
+3000        Angel          000                 LOGIN                              17/05/2025 15:17:21 
+3000        Angel          000                 LOGIN-FAIL                         17/05/2025 15:21:11 
+3001        Angel          000                 LOGIN                              17/05/2025 15:21:17 
+3000        Angel          000                 LOGIN                              17/05/2025 15:25:03 
+3000        Angel          000                 LOGIN                              17/05/2025 15:33:04 
+3100        Angel          PEDIDOS             Consulta de pedidos                17/05/2025 15:33:50 
+3101        Angel          PEDIDOS             Salida de gestión de pedidos       17/05/2025 15:34:12 
+<<<<<<< HEAD
+3000        Jennifer       000                 LOGIN                              17/05/2025 16:00:18 
+3001        Jennifer       000                 LOGOUT                             17/05/2025 16:01:59 
+3000        Jennifer       000                 LOGIN                              17/05/2025 16:10:20 
+3150        Jennifer       CLIENTES            Cliente agregado - ID: 3108        17/05/2025 16:10:50 
+3000        Jennifer       000                 LOGIN                              17/05/2025 16:12:37 
+3100        Jennifer       PEDIDOS             Pedido creado - ID: 3403           17/05/2025 16:16:08 
+3101        Jennifer       PEDIDOS             Consulta de pedidos                17/05/2025 16:16:13 
+3102        Jennifer       PEDIDOS             Salida de gestión de pedidos       17/05/2025 16:16:42 
+3550        Jennifer       ENVIOS              Creado envío para pedido 3403 con transportista 331117/05/2025 16:17:21 
+3103        Jennifer       PEDIDOS             Consulta de pedidos                17/05/2025 16:17:43 
+3104        Jennifer       PEDIDOS             Salida de gestión de pedidos       17/05/2025 16:18:01 
+=======
+3000        arriaza        000                 REG-USER                           17/05/2025 11:22:52 
+<<<<<<< HEAD
+>>>>>>> 862a41fe662cb937addea89707b9880e9c7dce70
+=======
+3000        Angel          000                 LOGIN                              17/05/2025 17:38:34 
+3000        Angel          000                 LOGIN                              17/05/2025 17:42:32 
+3000        Angel          000                 LOGIN                              17/05/2025 18:02:36 
+3000        Angel          000                 LOGIN-FAIL                         17/05/2025 18:03:41 
+3001        Angel          000                 LOGIN-FAIL                         17/05/2025 18:03:44 
+3000        Angel          000                 LOGIN                              17/05/2025 18:03:57 
+3000        Angel          000                 LOGIN                              17/05/2025 18:08:18 
+3100        Angel          PEDIDOS             Pedido creado - ID: 3403           17/05/2025 18:09:10 
+3101        Angel          PEDIDOS             Salida de gestión de pedidos       17/05/2025 18:09:13 
+3000        Angel          000                 LOGIN                              17/05/2025 18:12:06 
+3000        Angel          000                 LOGIN                              17/05/2025 18:25:36 
+3550        Angel          ENVIOS              Creado envio para pedido 3403 con transportista 331117/05/2025 18:26:05 
+3100        Angel          PEDIDOS             Pedido creado - ID: 3404           17/05/2025 18:26:50 
+3101        Angel          PEDIDOS             Salida de gestión de pedidos       17/05/2025 18:26:54 
+3551        Angel          ENVIOS              Creado envio para pedido 3404 con transportista 331117/05/2025 18:27:16 
+3102        Angel          PEDIDOS             Consulta de pedidos                17/05/2025 18:27:49 
+3103        Angel          PEDIDOS             Pedido modificado - ID: 3404       17/05/2025 18:28:36 
+3104        Angel          PEDIDOS             Salida de gestión de pedidos       17/05/2025 18:28:48 
+<<<<<<< HEAD
+>>>>>>> d5100bdb0f5841b2a9a5ce8c27155987ff727e6e
+=======
+3000        Jennifer       000                 LOGIN                              17/05/2025 18:02:42 
+>>>>>>> 85227e0923dcbcb72ba4c91960f0768d804107cc
+=======
+3000        Angel          000                 LOGIN                              17/05/2025 20:32:39 
+3100        Angel          PEDIDOS             Pedido creado - ID: 3405           17/05/2025 20:34:08 
+3101        Angel          PEDIDOS             Consulta de pedidos                17/05/2025 20:34:10 
+3102        Angel          PEDIDOS             Salida de gestión de pedidos       17/05/2025 20:34:15 
+3550        Angel          ENVIOS              Creado envio para pedido 3405 con transportista 331117/05/2025 20:34:32 
+3103        Angel          PEDIDOS             Salida de gestión de pedidos       17/05/2025 20:35:49 
+>>>>>>> 20f49edd6f110e44afb2740cf074d028f889317d
+3000        AJAX           000                 LOGIN-FAIL                         17/05/2025 20:43:55 
+3001        AJAX           000                 LOGIN-FAIL                         17/05/2025 20:44:05 
+3002        Jennifer       000                 LOGIN                              17/05/2025 20:44:12 
+3003        Jennifer       000                 LOGOUT                             17/05/2025 20:44:24 
+3000        Jennifer       000                 LOGIN                              17/05/2025 20:44:36 
+3100        Jennifer       PEDIDOS             Pedido creado - ID: 3404           17/05/2025 20:45:07 
+3101        Jennifer       PEDIDOS             Salida de gestión de pedidos       17/05/2025 20:45:13 
+3550        Jennifer       ENVIOS              Creado envio para pedido 3404 con transportista 331117/05/2025 20:47:56 
+3102        Jennifer       PEDIDOS             Consulta de pedidos                17/05/2025 20:48:32 
+3103        Jennifer       PEDIDOS             Salida de gestión de pedidos       17/05/2025 20:50:14 
+3000        Jennifer       500                 REPVENT                            17/05/2025 20:57:25 
+3001        Jennifer       500                 ANALTIME                           17/05/2025 20:57:32 
+3002        Jennifer       500                 REPINV                             17/05/2025 20:57:38 
+3003        Jennifer       500                 EVAPROV                            17/05/2025 20:57:45 
+3000        Camila         000                 LOGIN-FAIL                         17/05/2025 21:37:49 
+3001        Camila         000                 REG-USER                           17/05/2025 21:38:11 
+3002        Camila         000                 LOGIN                              17/05/2025 21:38:25 
+3000        Camila         000                 LOGIN                              17/05/2025 21:41:08 
+3100        Camila         PEDIDOS             Pedido creado - ID: 3405           17/05/2025 21:42:47 
+3101        Camila         PEDIDOS             Salida de gestión de pedidos       17/05/2025 21:42:53 
+3000        Camila         000                 LOGIN                              17/05/2025 21:46:05 
+3000        Camila         000                 LOGIN                              17/05/2025 21:57:26 
+3000        Camila         000                 LOGIN                              17/05/2025 21:58:16 
+3557        Camila         FACTURACION         Factura agregada - ID: 3557      17/05/2025 21:59:08
+3557        Camila         FACTURACION         Factura modificada - ID: 3557      17/05/2025 22:00:02
+3557        Camila         FACTURACION         Factura eliminada - ID: 3557      17/05/2025 22:00:13
+3000        Camila         000                 LOGIN-FAIL                         17/05/2025 22:06:09 
+3001        Camila         000                 LOGIN                              17/05/2025 22:06:21 
+3000        Camila         000                 LOGIN                              17/05/2025 22:07:16 
+3557        Camila          FACTURACION         Factura agregada - ID: 3557      17/05/2025 22:07:45
+   ¨õ‘     ðõ‘     e'Ëo    ú9ôý  ðõ‘                    ¨õ‘     ö–Ëo    °÷‘     ¹Eôý        3557        Camila          FACTURACION         Factura modificada - ID: 3557      17/05/2025 22:08:22
+                 Ô,Zñý          üœ2ôý           ˆÐo            ˆÐo    D       ¹Eôý        3557        Camila          FACTURACION         Factura modificada - ID: 3557      17/05/2025 22:08:42
+                 Ô,Zñý          üœ2ôý           ˆÐo            ˆÐo    D       ¹Eôý        3557        Camila          FACTURACION         Factura eliminada - ID: 3557      17/05/2025 22:08:53
+  Ðó‘                     ˆ   þÿÿÿ    ý  ÿ                     öD     ƒ      ¹Eôý        3000        Camila         000                 LOGIN                              17/05/2025 22:24:44 
+3000        Camila         000                 LOGIN                              17/05/2025 22:38:55 
+      3557          Camila          FACTURACION     Factura agregada 17/05/2025 22:39:12
+      3557          Camila          FACTURACION    Factura eliminada 17/05/2025 22:39:52
+>>>>>>> 5bbe8afdfb45178f0648659a4a1e6e9e6ac5a8bf
+<<<<<<< HEAD
+>>>>>>> ffd3338976ae7d3d40875f6f300ac94460248d9a
+3000        Karina         000                 LOGIN                              18/05/2025 08:05:35 
+3000        Karina         200                 STOCK                              18/05/2025 08:06:25 
+=======
+=======
+3000        Angel          000                 LOGIN                              17/05/2025 22:42:50 
+3000        Angel          000                 LOGIN                              17/05/2025 22:45:16 
+3000        Angel          000                 LOGIN                              17/05/2025 22:45:46 
+3000        Angel          000                 LOGIN                              17/05/2025 22:52:16 
+3000        Angel          000                 LOGIN                              17/05/2025 22:54:28 
+3100        Angel          PEDIDOS             Pedido creado - ID: 3408           17/05/2025 22:55:19 
+3101        Angel          PEDIDOS             Salida de gestión de pedidos       17/05/2025 22:55:21 
+3550        Angel          ENVIOS              Creado envio para pedido 3408 con transportista 331117/05/2025 22:55:31 
+3000        Angel          000                 LOGIN                              17/05/2025 22:57:57 
+3000        Angel          000                 LOGIN                              17/05/2025 22:59:38 
+3000        Angel          000                 LOGIN                              17/05/2025 23:01:41 
+3100        Angel          PEDIDOS             Pedido creado - ID: 3409           17/05/2025 23:03:44 
+3101        Angel          PEDIDOS             Salida de gestión de pedidos       17/05/2025 23:03:46 
+3550        Angel          ENVIOS              Creado envio para pedido 3409 con transportista 331117/05/2025 23:03:53 
+3000        Angel          000                 LOGIN                              17/05/2025 23:55:03 
+3000        Angel          000                 LOGIN                              18/05/2025 00:45:00 
+<<<<<<< HEAD
+>>>>>>> 27b7cee60f7cab43935bc70ee832239e9daa0484
+>>>>>>> 5a65c92ccab82300f344ad48eadc2e2d63e07041
+=======
+3000        Karina         000                 LOGIN                              17/05/2025 23:06:21 
+3000        Karina         200                 STOCK                              17/05/2025 23:06:33 
+3001        Karina         000                 LOGOUT                             17/05/2025 23:07:05 
+3000        Karina         000                 LOGIN                              17/05/2025 23:12:35 
+3001        Karina         000                 LOGOUT                             17/05/2025 23:12:43 
+3000        Karina         000                 LOGIN                              17/05/2025 23:39:23 
+3001        Karina         000                 LOGOUT                             17/05/2025 23:39:31 
+3000        Karina         000                 LOGIN                              17/05/2025 23:41:21 
+3001        Karina         000                 LOGOUT                             17/05/2025 23:41:27 
+3000        Karina         000                 LOGIN                              17/05/2025 23:45:54 
+3001        Karina         000                 LOGOUT                             17/05/2025 23:46:02 
+3000        Karina         000                 LOGIN                              17/05/2025 23:50:47 
+3001        Karina         000                 LOGOUT                             17/05/2025 23:50:52 
+3000        Karina         000                 LOGIN                              17/05/2025 23:51:57 
+3001        Karina         000                 LOGOUT                             17/05/2025 23:52:01 
+<<<<<<< HEAD
+>>>>>>> ramaale
+=======
+>>>>>>> 8985f6eeb8c73d0b3978067a7bd7297bc29d1fbb
+3000        Jennifer       000                 LOGIN                              18/05/2025 10:37:32 
+3000        Jennifer       200                 STOCK                              18/05/2025 10:37:39 
+3001        Jennifer       200                 REG-MERC                           18/05/2025 10:39:03 
+3002        Jennifer       200                 REPORTE                            18/05/2025 10:39:22 
+3003        Jennifer       200                 AJUSTE-MERC                        18/05/2025 10:39:35 
+3004        Jennifer       200                 REPORTE                            18/05/2025 10:39:38 
+=======
+3000        Angel          000                 LOGIN                              18/05/2025 11:26:49 
+3150        Angel          CLIENTES            Cliente agregado - ID: 3107        18/05/2025 11:27:08 
+3100        Angel          PEDIDOS             Salida de gestión de pedidos       18/05/2025 11:27:52 
+3250        Angel          PRODUCTOS           Agregado: 3211                     18/05/2025 11:28:16 
+3101        Angel          PEDIDOS             Pedido creado - ID: 3410           18/05/2025 11:28:34 
+3102        Angel          PEDIDOS             Salida de gestión de pedidos       18/05/2025 11:28:36 
+3550        Angel          ENVIOS              Creado envio para pedido 3410 con transportista 331118/05/2025 11:28:43 
+3103        Angel          PEDIDOS             Consulta de pedidos                18/05/2025 11:29:11 
+3104        Angel          PEDIDOS             Salida de gestión de pedidos       18/05/2025 11:29:19 
+>>>>>>> 06213e2a7593c2c519cf32a6481efe3964f5ffc6
+<<<<<<< HEAD
+>>>>>>> 5a65c92ccab82300f344ad48eadc2e2d63e07041
+3000        AJAX           000                 LOGIN-FAIL                         18/05/2025 15:31:39 
+3001        AJAX           000                 LOGIN-FAIL                         18/05/2025 15:31:47 
+3002        Jennifer       000                 LOGIN                              18/05/2025 15:31:56 
+3000        Jennifer       500                 REPVENT                            18/05/2025 15:32:04 
+3000        Jennifer       000                 LOGIN                              18/05/2025 16:04:43 
+3000        Jennifer       000                 LOGIN                              18/05/2025 16:21:35 
+3250        Jennifer       PRODUCTOS           Agregado: 3209                     18/05/2025 16:22:31 
+3000        Jennifer       000                 LOGIN                              18/05/2025 16:24:06 
+3600        SISTEMA        SISTEMA             Backup de bitácora generado: backup_bitacora_20250518_162419.txt18/05/2025 16:24:19 
+3601        SISTEMA        SISTEMA             Backup de bitácora generado: backup_bitacora_20250518_162424.txt18/05/2025 16:24:24 
+=======
+3000        Angoly         000                 REG-USER                           18/05/2025 11:54:04 
+3001        Camila         000                 LOGIN-FAIL                         18/05/2025 11:54:13 
+3002        Angoly         000                 LOGIN                              18/05/2025 11:54:22 
+3100        Angoly         PEDIDOS             Consulta de pedidos                18/05/2025 11:54:43 
+3000        Angoly         000                 LOGIN                              18/05/2025 11:56:19 
+3150        Angoly         CLIENTES            Cliente agregado - ID: 3108        18/05/2025 11:56:45 
+3000        Angoly         000                 LOGIN                              18/05/2025 12:13:58 
+3100        Angoly         PEDIDOS             Consulta de pedidos                18/05/2025 12:14:18 
+3000        Angoly         000                 LOGIN                              18/05/2025 12:16:50 
+3100        Angoly         PEDIDOS             Pedido creado - ID: 3406           18/05/2025 12:17:25 
+3101        Angoly         PEDIDOS             Salida de gestión de pedidos       18/05/2025 12:17:30 
+3102        Angoly         PEDIDOS             Consulta de pedidos                18/05/2025 12:17:43 
+3000        Angoly         000                 LOGIN                              18/05/2025 12:22:34 
+3100        Angoly         PEDIDOS             Consulta de pedidos                18/05/2025 12:22:53 
+3000        Angoly         000                 LOGIN                              18/05/2025 12:24:30 
+3100        Angoly         PEDIDOS             Consulta de pedidos                18/05/2025 12:24:48 
+3000        Angoly         000                 LOGIN                              18/05/2025 12:34:49 
+3100        Angoly         PEDIDOS             Consulta de pedidos                18/05/2025 12:35:07 
+3000        Angoly         000                 LOGIN                              18/05/2025 12:39:39 
+3100        Angoly         PEDIDOS             Consulta de pedidos                18/05/2025 12:39:54 
+3101        Angoly         PEDIDOS             Consulta de pedidos                18/05/2025 12:40:25 
+3000        Angoly         000                 LOGIN                              18/05/2025 12:42:54 
+3000        Angoly         000                 LOGIN                              18/05/2025 12:48:04 
+3100        Angoly         PEDIDOS             Consulta de pedidos                18/05/2025 12:48:17 
+3000        Angoly         000                 LOGIN                              18/05/2025 13:34:51 
+3100        Angoly         PEDIDOS             Consulta de pedidos                18/05/2025 13:35:04 
+3000        Angoly         000                 LOGIN                              18/05/2025 13:45:37 
+3000        Angoly         000                 LOGIN                              18/05/2025 13:47:02 
+3100        Angoly         PEDIDOS             Consulta de pedidos                18/05/2025 13:47:17 
+3000        Angoly         000                 LOGIN                              18/05/2025 14:00:35 
+3100        Angoly         PEDIDOS             Consulta de pedidos                18/05/2025 14:00:50 
+3000        Angoly         000                 LOGIN                              18/05/2025 14:27:00 
+3100        Angoly         PEDIDOS             Consulta de pedidos                18/05/2025 14:27:14 
+3000        Angoly         000                 LOGIN                              18/05/2025 14:45:32 
+3100        Angoly         PEDIDOS             Consulta de pedidos                18/05/2025 14:45:41 
+3000        Angoly         000                 LOGIN-FAIL                         18/05/2025 15:13:19 
+3001        Angoly         000                 LOGIN                              18/05/2025 15:13:26 
+3100        Angoly         PEDIDOS             Consulta de pedidos                18/05/2025 15:13:35 
+3000        12345678       000                 LOGIN-FAIL                         18/05/2025 15:18:10 
+3001        Angoly         000                 LOGIN                              18/05/2025 15:18:22 
+3100        Angoly         PEDIDOS             Consulta de pedidos                18/05/2025 15:18:32 
+3000        Angoly         000                 LOGIN                              18/05/2025 15:21:52 
+3100        Angoly         PEDIDOS             Consulta de pedidos                18/05/2025 15:22:10 
+>>>>>>> 48272b46800959aae78e9d62f3c7b8e6938a3564
+3000        Karina         000                 LOGIN                              18/05/2025 16:32:37 
+3000        Karina         000                 LOGIN                              18/05/2025 16:38:01 
+3000        Karina         200                 REPORTE-INV                        18/05/2025 16:38:31 
+3001        Karina         000                 LOGOUT                             18/05/2025 16:39:27 
+3002        Sistema        000                 PROGRAMA CERRADO                   18/05/2025 16:39:39 
+3000        Karina         000                 LOGIN                              18/05/2025 17:12:40 
+3000        Alejandra      000                 REG-USER                           18/05/2025 17:15:05 
+3001        Alejandra      000                 LOGIN                              18/05/2025 17:15:21 
+3000        Alejandra      200                 REPORTE-INV                        18/05/2025 17:16:46 
+3000        Karina         000                 LOGIN                              18/05/2025 17:20:47 
+3000        Karina         000                 LOGIN                              18/05/2025 17:21:25 
+3000        Karina         200                 REPORTE-INV                        18/05/2025 17:21:45 
+3001        Karina         000                 LOGOUT                             18/05/2025 17:22:05 
+3002        Sistema        000                 PROGRAMA CERRADO                   18/05/2025 17:22:08 
+3000        Karina         000                 LOGIN                              18/05/2025 17:39:14 
+3001        Karina         000                 LOGOUT                             18/05/2025 17:39:21 
+3002        Sistema        000                 PROGRAMA CERRADO                   18/05/2025 17:39:25 

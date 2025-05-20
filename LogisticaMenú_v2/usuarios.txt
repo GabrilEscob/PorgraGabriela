@@ -1,0 +1,48 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+3013 Karina alewi
+=======
+3001 Jennifer 123
+3002 Prueba2 321
+3200 DelAguila 123456
+>>>>>>> c2dd98f6893dcf4e06a25520b6c5b1c536fe86b8
+=======
+3001 Jennifer 123 5
+>>>>>>> 42bffdfe9f0965f150ef71064bd77ac7f733dd2a
+<<<<<<< HEAD
+3113 Karina alewi 3
+3333 Ale 12345678 3
+3334 Kari 0987654321 2
+3332 kari qwertyui 3
+<<<<<<< HEAD
+0909 Angel Panqueques 3
+<<<<<<< HEAD
+3330 arriaza aizawa13 1
+=======
+=======
+3370 arriaza alejandra 3
+>>>>>>> 862a41fe662cb937addea89707b9880e9c7dce70
+<<<<<<< HEAD
+>>>>>>> 296cd50756a892cdc97a9b778a2a348ccc059bd2
+=======
+=======
+
+<<<<<<< HEAD
+>>>>>>> 85227e0923dcbcb72ba4c91960f0768d804107cc
+<<<<<<< HEAD
+=======
+3100 Karina 12345678 3
+>>>>>>> a1836cfc7a05be1a66acd5eca09aaac9c98ba1b2
+=======
+3100 Camila 12345678 3
+>>>>>>> 5bbe8afdfb45178f0648659a4a1e6e9e6ac5a8bf
+<<<<<<< HEAD
+>>>>>>> ffd3338976ae7d3d40875f6f300ac94460248d9a
+=======
+3101 Angoly 12345678 3
+>>>>>>> 48272b46800959aae78e9d62f3c7b8e6938a3564
+<<<<<<< HEAD
+3102 JENNBF AJAXSU87 3
+=======
+3102 Alejandra alejandra 3
+>>>>>>> 969d0daebbc9eddb741396054b70664881184479
